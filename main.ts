@@ -46,7 +46,6 @@ function color_by_temperature(valor: number, seleccio: number) {
 function option() {
     let valor: number;
     let seleccio = menu()
-    let random = randint(0, 2)
     if (seleccio == 1) {
         valor = game.askForNumber("Put the number to convert", 3)
         color_by_temperature(valor, seleccio)

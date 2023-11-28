@@ -37,7 +37,6 @@ def color_by_temperature(valor, seleccio):
 
 def option():
     seleccio = menu()
-    random = randint(0, 2)
     if seleccio == 1:
         valor = game.ask_for_number("Put the number to convert", 3)
         color_by_temperature(valor, seleccio)
